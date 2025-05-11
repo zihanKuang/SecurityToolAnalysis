@@ -1,0 +1,101 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>se.chalmers.firegroup54</groupId> <artifactId>SecurityToolAnalysisProject</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>SecurityToolAnalysisProject</name>
+  <url>http://maven.apache.org</url> <properties>
+  <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  <java.version>17</java.version>
+  <maven.compiler.source>${java.version}</maven.compiler.source>
+  <maven.compiler.target>${java.version}</maven.compiler.target>
+
+  <sonar.host.url>http://localhost:9000</sonar.host.url>
+  <sonar.token>sqa_9459a7d59eb16c7dc713dd2a9ce0b782bf355779</sonar.token>
+  <sonar.host.url>http://localhost:9000</sonar.host.url>
+  <sonar.projectKey>${project.groupId}:${project.artifactId}</sonar.projectKey> <sonar.projectName>${project.name}</sonar.projectName>
+  <sonar.java.source>${java.version}</sonar.java.source>
+  <sonar.java.binaries>target/classes</sonar.java.binaries>
+  <sonar.coverage.exclusions>**/Corrected*.java,**/Flawed*.java</sonar.coverage.exclusions> <sonar.cpd.exclusions>**/Corrected*.java,**/Flawed*.java</sonar.cpd.exclusions> <spotbugs.version>4.8.6</spotbugs.version>
+  <spotbugs-maven-plugin.version>4.8.6.2</spotbugs-maven-plugin.version>
+  <findsecbugs-plugin.version>1.12.0</findsecbugs-plugin.version> <sb-contrib.version>7.6.0</sb-contrib.version> <junit-jupiter.version>5.10.3</junit-jupiter.version>
+</properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-api</artifactId>
+      <version>${junit-jupiter.version}</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-engine</artifactId>
+      <version>${junit-jupiter.version}</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.findbugs</groupId>
+      <artifactId>jsr305</artifactId>
+      <version>3.0.2</version>
+      <scope>provided</scope> </dependency>
+  </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.13.0</version> <configuration>
+        <source>${java.version}</source>
+        <target>${java.version}</target>
+      </configuration>
+      </plugin>
+
+      <plugin>
+        <groupId>com.github.spotbugs</groupId>
+        <artifactId>spotbugs-maven-plugin</artifactId>
+        <version>${spotbugs-maven-plugin.version}</version>
+        <dependencies>
+          <dependency>
+            <groupId>com.github.spotbugs</groupId>
+            <artifactId>spotbugs</artifactId>
+            <version>${spotbugs.version}</version>
+          </dependency>
+        </dependencies>
+        <configuration>
+          <effort>Max</effort>
+          <threshold>Low</threshold> <xmlOutput>true</xmlOutput> <failOnError>false</failOnError> <plugins>
+          <plugin>
+            <groupId>com.h3xstream.findsecbugs</groupId>
+            <artifactId>findsecbugs-plugin</artifactId>
+            <version>${findsecbugs-plugin.version}</version>
+          </plugin>
+          <plugin>
+            <groupId>com.mebigfatguy.sb-contrib</groupId>
+            <artifactId>sb-contrib</artifactId>
+            <version>${sb-contrib.version}</version>
+          </plugin>
+        </plugins>
+        </configuration>
+        <executions>
+          <execution>
+            <id>spotbugs-check</id>
+            <phase>verify</phase> <goals>
+            <goal>check</goal> </goals>
+          </execution>
+        </executions>
+      </plugin>
+
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>3.3.1</version> </plugin>
+
+    </plugins>
+  </build>
+</project>

@@ -1,0 +1,33 @@
+#0
+src/main/java/guardby/FlawedGuardedResource.java:37: warning: Thread Safety Violation
+  Read/Write race. Non-private method `FlawedGuardedResource.getDataUnguarded()` reads without synchronization from `this.sharedData`. Potentially races with write in method `FlawedGuardedResource.setDataGuarded(...)`.
+ Reporting because another access to the same memory occurs on a background thread, although this access may not.
+  35.       // 错误的读方法，没有获取锁
+  36.       public int getDataUnguarded() {
+  37. >         System.out.println(Thread.currentThread().getName() + " (UNGUARDED) reading data: " + this.sharedData);
+  38.           return this.sharedData;
+  39.       }
+
+#1
+src/main/java/guardby/FlawedGuardedResource.java:26: warning: Thread Safety Violation
+  Unprotected write. Non-private method `FlawedGuardedResource.setDataUnguarded(...)` writes to field `this.sharedData` outside of synchronization.
+ Reporting because another access to the same memory occurs on a background thread, although this access may not.
+  24.       public void setDataUnguarded(int data) {
+  25.           System.out.println(Thread.currentThread().getName() + " (UNGUARDED) setting data to: " + data);
+  26. >         this.sharedData = data; // 直接访问，没有同步
+  27.           try {
+  28.               Thread.sleep(10);
+
+#2
+src/main/java/guardby/FlawedGuardedResource.java:32: warning: Thread Safety Violation
+  Read/Write race. Non-private method `FlawedGuardedResource.setDataUnguarded(...)` reads without synchronization from `this.sharedData`. Potentially races with write in method `FlawedGuardedResource.setDataGuarded(...)`.
+ Reporting because another access to the same memory occurs on a background thread, although this access may not.
+  30.               Thread.currentThread().interrupt();
+  31.           }
+  32. >         System.out.println(Thread.currentThread().getName() + " (UNGUARDED) data is now: " + this.sharedData);
+  33.       }
+  34.   
+
+Found 3 issues
+                        Issue Type(ISSUED_TYPE_ID): #
+  Thread Safety Violation(THREAD_SAFETY_VIOLATION): 3

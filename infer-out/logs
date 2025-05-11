@@ -1,0 +1,157 @@
+[7][      debug] Loading models took 127ms
+[8][      debug] Sqlite write daemon: starting up
+[8][      debug] Sqlite write daemon: set up complete, waiting for connections
+[7][environment] CWD = /project
+[7][environment] No .inferconfig file found
+[7][environment] Project root = /project
+[7][environment] INFER_ARGS =   @/tmp/args.tmp.ed0b4b
+[7][environment] command line arguments:   infer run --results-dir infer-out -- mvn compile
+[7][environment]                           -DskipTests
+[7][environment] Available memory at startup: 6278 MB
+[7][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), dotnet-resource-leak (C#/.Net), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java, C#/.Net)
+[7][environment] Scheduler: file
+[7][environment] Cores used: 4
+[7][environment] Infer version v1.1.0
+[7][environment] Copyright 2009 - present Facebook. All Rights Reserved.
+[7][environment] 
+[7][   progress] Capturing in maven mode...
+[7][      debug] Running maven capture:
+[7][      debug] mvn 'compile' '-DskipTests' '-P' 'infer-capture'
+
+[66][environment] CWD = /project
+[66][environment] No .inferconfig file found
+[66][environment] Project root = /project
+[66][environment] INFER_ARGS =   @/tmp/args.tmp.648b11
+[66][environment] command line arguments:   /opt/infer-linux64-v1.1.0/lib/infer/infer/bin/infer
+[66][environment]                           @/tmp/org.codehaus.plexus.compiler.javac.JavacCompiler3192244101205454766arguments
+[66][environment] Available memory at startup: 6097 MB
+[66][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), dotnet-resource-leak (C#/.Net), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java, C#/.Net)
+[66][      debug] Current working directory: '/project'
+[66][      debug] Trying to execute: javac '-J-Duser.language=en' '@/tmp/org.codehaus.plexus.compiler.javac.JavacCompiler3192244101205454766arguments' '@/project/infer-out/tmp/javac_args.tmp.ef771d' 2>'/project/infer-out/tmp/javac.tmp.1a6549.out'
+[66][      debug] *** Success. Logs:
+[66][      debug] Translating 6 source files (6 classes)
+[66][      debug] done capturing all files
+[66][      debug] GC stats for capture:
+[66][      debug]   minor_words: 3.47329e+06
+[66][      debug]   promoted_words: 447543
+[66][      debug]   major_words: 474014
+[66][      debug]   minor_collections: 7
+[66][      debug]   major_collections: 2
+[66][      debug]   compactions: 0
+[66][      debug]   top_heap_words: 661504
+[66][      debug]   
+[66][      debug] GC stats for main_process_full:
+[66][      debug]   minor_words: 4.86383e+06
+[66][      debug]   promoted_words: 615423
+[66][      debug]   major_words: 662546
+[66][      debug]   minor_collections: 24
+[66][      debug]   major_collections: 6
+[66][      debug]   compactions: 1
+[66][      debug]   top_heap_words: 661504
+[66][      debug]   
+[66][environment] Scheduler: file
+[66][environment] Cores used: 4
+[66][environment] [7][      debug] GC stats for capture:
+[7][      debug]   minor_words: 21596
+[7][      debug]   promoted_words: 0
+[7][      debug]   major_words: 0
+[7][      debug]   minor_collections: 0
+[7][      debug]   major_collections: 0
+[7][      debug]   compactions: 0
+[7][      debug]   top_heap_words: 760832
+[7][      debug]   
+[7][environment] Parallel jobs: 4
+[7][   progress] Found 6 source files to analyze in /project/infer-out
+[96][   progress] src/main/java/nonatomic/CorrectedNonAtomic.java starting
+[95][   progress] src/main/java/iterator/FlawedIterator.java starting
+[97][   progress] src/main/java/guardby/FlawedGuardedResource.java starting
+[98][   progress] src/main/java/nonatomic/FlawedNonAtomic.java starting
+[96][   progress] src/main/java/nonatomic/CorrectedNonAtomic.java DONE
+[96][   progress] src/main/java/guardby/CorrectedGuardedResource.java starting
+[98][   progress] src/main/java/nonatomic/FlawedNonAtomic.java DONE
+[98][   progress] src/main/java/iterator/CorrectedIterator.java starting
+[95][   progress] src/main/java/iterator/FlawedIterator.java DONE
+[97][   progress] src/main/java/guardby/FlawedGuardedResource.java DONE
+[98][   progress] src/main/java/iterator/CorrectedIterator.java DONE
+[96][   progress] src/main/java/guardby/CorrectedGuardedResource.java DONE
+[7][      debug] Backend stats:
+[7][      debug]   summary_file_try_load= 914
+[7][      debug]   summary_read_from_disk= 0
+[7][      debug]   summary_cache_hits= 1655 (64%)
+[7][      debug]   summary_cache_misses= 914
+[7][      debug]   ondemand_procs_analyzed= 82
+[7][      debug]   ondemand_local_cache_hits= 952 (85%)
+[7][      debug]   ondemand_local_cache_misses= 167
+[7][      debug]   proc_locker_lock_time_user= 0.00000000
+[7][      debug]   proc_locker_lock_time_sys= 0.00000000
+[7][      debug]   proc_locker_lock_time_wall= 0.00000000
+[7][      debug]   proc_locker_unlock_time_user= 0.00000000
+[7][      debug]   proc_locker_unlock_time_sys= 0.00000000
+[7][      debug]   proc_locker_unlock_time_wall= 0.00000000
+[7][      debug]   restart_scheduler_useful_time_user= 0.00000000
+[7][      debug]   restart_scheduler_useful_time_sys= 0.00000000
+[7][      debug]   restart_scheduler_useful_time_wall= 0.00000000
+[7][      debug]   restart_scheduler_total_time_user= 0.00000000
+[7][      debug]   restart_scheduler_total_time_sys= 0.00000000
+[7][      debug]   restart_scheduler_total_time_wall= 0.00000000
+[7][      debug]   
+[7][      debug] GC stats for backend_stats.gc_stats_add.:
+[7][      debug]   minor_words: 1.15391e+08
+[7][      debug]   promoted_words: 1.17859e+06
+[7][      debug]   major_words: 1.62446e+06
+[7][      debug]   minor_collections: 116
+[7][      debug]   major_collections: 13
+[7][      debug]   compactions: 0
+[7][      debug]   top_heap_words: 3631616
+[7][      debug]   
+[7][      debug] GC stats for backend_stats.gc_stats_max.:
+[7][      debug]   minor_words: 4.33446e+07
+[7][      debug]   promoted_words: 348115
+[7][      debug]   major_words: 480516
+[7][      debug]   minor_collections: 43
+[7][      debug]   major_collections: 4
+[7][      debug]   compactions: 0
+[7][      debug]   top_heap_words: 1006592
+[7][      debug]   
+[7][      debug] Average over 4 processes
+[7][      debug] GC stats for backend_stats.gc_stats_average.:
+[7][      debug]   minor_words: 2.88478e+07
+[7][      debug]   promoted_words: 294648
+[7][      debug]   major_words: 406115
+[7][      debug]   minor_collections: 29
+[7][      debug]   major_collections: 3
+[7][      debug]   compactions: 0
+[7][      debug]   top_heap_words: 907904
+[7][      debug]   
+[7][      debug] Analysis phase finished in 699ms
+[7][      debug] backend_stats.scheduler_process_analysis_time_user= 0.01041400
+[7][      debug] backend_stats.scheduler_process_analysis_time_sys= 0.01269700
+[7][      debug] backend_stats.scheduler_process_analysis_time_wall= 0.69916828
+[7][      debug] GC stats for analysis_scheduler:
+[7][      debug]   minor_words: 13091
+[7][      debug]   promoted_words: 152655
+[7][      debug]   major_words: 161361
+[7][      debug]   minor_collections: 1
+[7][      debug]   major_collections: 2
+[7][      debug]   compactions: 1
+[7][      debug]   top_heap_words: 875008
+[7][      debug]   
+[7][      debug] GC stats for report:
+[7][      debug]   minor_words: 177939
+[7][      debug]   promoted_words: 0
+[7][      debug]   major_words: 1980
+[7][      debug]   minor_collections: 0
+[7][      debug]   major_collections: 0
+[7][      debug]   compactions: 0
+[7][      debug]   top_heap_words: 875008
+[7][      debug]   
+[7][      debug] GC stats for main_process_full:
+[7][      debug]   minor_words: 1.86511e+06
+[7][      debug]   promoted_words: 320535
+[7][      debug]   major_words: 857262
+[7][      debug]   minor_collections: 18
+[7][      debug]   major_collections: 6
+[7][      debug]   compactions: 2
+[7][      debug]   top_heap_words: 875008
+[7][      debug]   
+[8][      debug] Sqlite write daemon: terminating
