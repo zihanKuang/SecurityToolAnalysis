@@ -2,10 +2,6 @@
 
 **Authors:** Zihan Kuang, Ruixuan Li
 
-**Fire Group Number:** 54
-
-**University:** Chalmers University of Technology
-
 ## Project Goal
 
 This project aims to evaluate three static analysis tools (SpotBugs, Infer, SonarQube) for their effectiveness in detecting race conditions in concurrent Java programs. The evaluation focuses on:
