@@ -1,0 +1,225 @@
+[134][      debug] Loading models took 80.078ms
+[135][      debug] Sqlite write daemon: starting up
+[135][      debug] Sqlite write daemon: set up complete, waiting for connections
+[134][environment] CWD = /infer-code
+[134][environment] No .inferconfig file found
+[134][environment] Project root = /infer-code
+[134][environment] INFER_ARGS =   
+[134][environment] command line arguments:   infer -- javac EchoWebSocketServer.java
+[134][environment] Available memory at startup: 14461 MB
+[134][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), dotnet-resource-leak (C#/.Net), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java, C#/.Net)
+[134][environment] Scheduler: file
+[134][environment] Cores used: 16
+[134][environment] Infer version v1.1.0
+[134][environment] Copyright 2009 - present Facebook. All Rights Reserved.
+[134][environment] 
+[134][   progress] Capturing in javac mode...
+[134][      debug] Current working directory: '/infer-code'
+[134][      debug] Trying to execute: javac '-J-Duser.language=en' '@/infer-code/infer-out/tmp/javac_args.tmp.0a7802' 2>'/infer-code/infer-out/tmp/javac.tmp.f16669.out'
+[134][      debug] *** Failed: exited with code 1!
+[134][      debug] 
+[134][      debug] Trying to execute: javac '@/infer-code/infer-out/tmp/javac_args.tmp.0a7802' 2>'/infer-code/infer-out/tmp/javac.tmp.f16669.out'
+[134][   user err] 
+*** Failed to execute compilation command: exited with code 1
+*** Command: javac '@/infer-code/infer-out/tmp/javac_args.tmp.0a7802'
+*** Output:
+[parsing started SimpleFileObject[/infer-code/EchoWebSocketServer.java]]
+[parsing completed 14ms]
+[loading /modules/java.management/module-info.class]
+[loading /modules/jdk.editpad/module-info.class]
+[loading /modules/jdk.naming.rmi/module-info.class]
+[loading /modules/jdk.jstatd/module-info.class]
+[loading /modules/jdk.internal.vm.compiler/module-info.class]
+[loading /modules/jdk.localedata/module-info.class]
+[loading /modules/jdk.security.jgss/module-info.class]
+[loading /modules/java.instrument/module-info.class]
+[loading /modules/jdk.scripting.nashorn.shell/module-info.class]
+[loading /modules/java.compiler/module-info.class]
+[loading /modules/jdk.internal.le/module-info.class]
+[loading /modules/jdk.management/module-info.class]
+[loading /modules/java.sql/module-info.class]
+[loading /modules/java.xml/module-info.class]
+[loading /modules/java.security.sasl/module-info.class]
+[loading /modules/java.desktop/module-info.class]
+[loading /modules/jdk.internal.ed/module-info.class]
+[loading /modules/java.sql.rowset/module-info.class]
+[loading /modules/jdk.internal.opt/module-info.class]
+[loading /modules/jdk.xml.dom/module-info.class]
+[loading /modules/java.transaction.xa/module-info.class]
+[loading /modules/jdk.internal.vm.compiler.management/module-info.class]
+[loading /modules/java.prefs/module-info.class]
+[loading /modules/jdk.scripting.nashorn/module-info.class]
+[loading /modules/jdk.jsobject/module-info.class]
+[loading /modules/jdk.rmic/module-info.class]
+[loading /modules/java.se/module-info.class]
+[loading /modules/java.xml.crypto/module-info.class]
+[loading /modules/jdk.pack/module-info.class]
+[loading /modules/jdk.jshell/module-info.class]
+[loading /modules/jdk.attach/module-info.class]
+[loading /modules/java.datatransfer/module-info.class]
+[loading /modules/jdk.net/module-info.class]
+[loading /modules/jdk.charsets/module-info.class]
+[loading /modules/jdk.jconsole/module-info.class]
+[loading /modules/jdk.jcmd/module-info.class]
+[loading /modules/jdk.hotspot.agent/module-info.class]
+[loading /modules/jdk.naming.ldap/module-info.class]
+[loading /modules/jdk.internal.vm.ci/module-info.class]
+[loading /modules/jdk.zipfs/module-info.class]
+[loading /modules/jdk.javadoc/module-info.class]
+[loading /modules/jdk.aot/module-info.class]
+[loading /modules/jdk.naming.dns/module-info.class]
+[loading /modules/jdk.dynalink/module-info.class]
+[loading /modules/java.security.jgss/module-info.class]
+[loading /modules/java.base/module-info.class]
+[loading /modules/jdk.jlink/module-info.class]
+[loading /modules/jdk.compiler/module-info.class]
+[loading /modules/jdk.accessibility/module-info.class]
+[loading /modules/jdk.management.agent/module-info.class]
+[loading /modules/jdk.jdi/module-info.class]
+[loading /modules/jdk.management.jfr/module-info.class]
+[loading /modules/jdk.unsupported/module-info.class]
+[loading /modules/jdk.crypto.ec/module-info.class]
+[loading /modules/java.smartcardio/module-info.class]
+[loading /modules/jdk.internal.jvmstat/module-info.class]
+[loading /modules/java.management.rmi/module-info.class]
+[loading /modules/jdk.security.auth/module-info.class]
+[loading /modules/jdk.httpserver/module-info.class]
+[loading /modules/java.logging/module-info.class]
+[loading /modules/java.rmi/module-info.class]
+[loading /modules/java.scripting/module-info.class]
+[loading /modules/jdk.crypto.cryptoki/module-info.class]
+[loading /modules/jdk.sctp/module-info.class]
+[loading /modules/jdk.jdwp.agent/module-info.class]
+[loading /modules/jdk.jartool/module-info.class]
+[loading /modules/jdk.jfr/module-info.class]
+[loading /modules/java.net.http/module-info.class]
+[loading /modules/jdk.jdeps/module-info.class]
+[loading /modules/java.naming/module-info.class]
+[loading /modules/jdk.unsupported.desktop/module-info.class]
+[search path for source files: .]
+[search path for class files: /usr/lib/jvm/java-11-openjdk-amd64/lib/modules,.]
+EchoWebSocketServer.java:3: error: package org.java_websocket does not exist
+import org.java_websocket.WebSocket;
+                         ^
+EchoWebSocketServer.java:4: error: package org.java_websocket.handshake does not exist
+import org.java_websocket.handshake.ClientHandshake;
+                                   ^
+EchoWebSocketServer.java:5: error: package org.java_websocket.server does not exist
+import org.java_websocket.server.WebSocketServer;
+                                ^
+[loading /modules/java.base/java/net/InetSocketAddress.class]
+[loading /modules/java.sql/java/sql/Connection.class]
+[loading /modules/java.sql/java/sql/DriverManager.class]
+[loading /modules/java.sql/java/sql/SQLException.class]
+[loading /modules/java.sql/java/sql/Statement.class]
+[loading /modules/java.base/java/util/Random.class]
+[loading /modules/java.sql/java/sql/ResultSet.class]
+EchoWebSocketServer.java:15: error: cannot find symbol
+public class EchoWebSocketServer extends WebSocketServer {
+                                         ^
+  symbol: class WebSocketServer
+[loading /modules/java.base/java/lang/String.class]
+EchoWebSocketServer.java:29: error: cannot find symbol
+    public void onOpen(WebSocket conn, ClientHandshake handshake) {
+                       ^
+  symbol:   class WebSocket
+  location: class EchoWebSocketServer
+EchoWebSocketServer.java:29: error: cannot find symbol
+    public void onOpen(WebSocket conn, ClientHandshake handshake) {
+                                       ^
+  symbol:   class ClientHandshake
+  location: class EchoWebSocketServer
+EchoWebSocketServer.java:35: error: cannot find symbol
+    public void onClose(WebSocket conn, int code, String reason, boolean remote) {
+                        ^
+  symbol:   class WebSocket
+  location: class EchoWebSocketServer
+EchoWebSocketServer.java:42: error: cannot find symbol
+    public void onMessage(WebSocket conn, String message) {
+                          ^
+  symbol:   class WebSocket
+  location: class EchoWebSocketServer
+EchoWebSocketServer.java:78: error: cannot find symbol
+    public void onError(WebSocket conn, Exception ex) {
+                        ^
+  symbol:   class WebSocket
+  location: class EchoWebSocketServer
+[loading /modules/java.base/java/lang/Exception.class]
+[loading /modules/java.base/java/lang/Deprecated.class]
+[loading /modules/java.base/java/lang/Override.class]
+[loading /modules/java.base/java/lang/Object.class]
+[loading /modules/java.base/java/lang/annotation/Annotation.class]
+[loading /modules/java.base/java/lang/annotation/Retention.class]
+[loading /modules/java.base/java/lang/annotation/RetentionPolicy.class]
+[loading /modules/java.base/java/lang/annotation/Target.class]
+[loading /modules/java.base/java/lang/annotation/ElementType.class]
+[checking io.redrays.ws.concept.server.EchoWebSocketServer]
+[loading /modules/java.base/java/io/Serializable.class]
+[loading /modules/java.base/java/lang/AutoCloseable.class]
+EchoWebSocketServer.java:28: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+EchoWebSocketServer.java:34: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+[loading /modules/java.base/java/lang/Byte.class]
+[loading /modules/java.base/java/lang/Character.class]
+[loading /modules/java.base/java/lang/Short.class]
+[loading /modules/java.base/java/lang/Long.class]
+[loading /modules/java.base/java/lang/Float.class]
+[loading /modules/java.base/java/lang/Integer.class]
+[loading /modules/java.base/java/lang/Double.class]
+[loading /modules/java.base/java/lang/Boolean.class]
+[loading /modules/java.base/java/lang/Void.class]
+[loading /modules/java.base/java/lang/System.class]
+[loading /modules/java.base/java/io/PrintStream.class]
+[loading /modules/java.base/java/lang/Appendable.class]
+[loading /modules/java.base/java/io/Closeable.class]
+[loading /modules/java.base/java/io/FilterOutputStream.class]
+[loading /modules/java.base/java/io/OutputStream.class]
+[loading /modules/java.base/java/io/Flushable.class]
+[loading /modules/java.base/java/lang/Comparable.class]
+[loading /modules/java.base/java/lang/CharSequence.class]
+[loading /modules/java.base/java/lang/Cloneable.class]
+EchoWebSocketServer.java:41: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+[loading /modules/java.base/java/lang/Throwable.class]
+[loading /modules/java.base/java/lang/Iterable.class]
+[loading /modules/java.base/java/util/Properties.class]
+[loading /modules/java.sql/java/sql/Wrapper.class]
+[loading /modules/java.base/java/lang/Error.class]
+[loading /modules/java.base/java/lang/InterruptedException.class]
+[loading /modules/java.base/java/lang/RuntimeException.class]
+EchoWebSocketServer.java:77: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+EchoWebSocketServer.java:83: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+EchoWebSocketServer.java:85: error: cannot find symbol
+        System.out.println("WebSocket server started on " + getAddress());
+                                                            ^
+  symbol:   method getAddress()
+  location: class EchoWebSocketServer
+[loading /modules/java.base/java/lang/Class.class]
+[loading /modules/java.base/java/lang/reflect/GenericDeclaration.class]
+[loading /modules/java.base/java/lang/reflect/AnnotatedElement.class]
+[loading /modules/java.base/java/lang/reflect/Type.class]
+[loading /modules/java.base/java/lang/ClassNotFoundException.class]
+[loading /modules/java.base/java/lang/ReflectiveOperationException.class]
+EchoWebSocketServer.java:151: error: cannot find symbol
+        server.start();
+              ^
+  symbol:   method start()
+  location: variable server of type EchoWebSocketServer
+[total 292ms]
+16 errors
+
+*** Infer needs a working compilation command to run.
+
+[134][   user err] Raised at Stdlib__buffer.add_channel in file "buffer.ml", line 273, characters 18-35
+Called from Stdio__In_channel.input_all.loop in file "src/in_channel.ml", line 44, characters 4-47
+Called from Stdio__In_channel.input_all in file "src/in_channel.ml", line 47, characters 6-13
+
+[135][      debug] Sqlite write daemon: terminating

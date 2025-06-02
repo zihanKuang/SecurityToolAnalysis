@@ -1,0 +1,6 @@
+ProxyProtocolSimulator.java & SharedWriter.java: Real-world inspired example based on CVE-2024-7885, simulating concurrent access to a non-thread-safe shared writer.
+UnsafeSingleton.java & SafeSingleton.java: Demonstrate unsafe and safe double-checked locking patterns, respectively.
+UnsafePublisher.java & SafePublisher.java: Simulate incorrect and correct publication of shared objects across threads.
+WebSocketParallel_Failed.java: Simulates a client-side race condition where multiple threads concurrently use a single WebSocketClient instance.
+WebSocketParallel_Success.java: Corrected version where each thread uses its own WebSocketClient instance.
+EchoWebSocketServer.java: Server-side implementation that handles incoming WebSocket messages, used to observe the effect of client-side races.

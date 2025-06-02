@@ -1,0 +1,743 @@
+[9][      debug] Loading models took 77.835ms
+[10][      debug] Sqlite write daemon: starting up
+[10][      debug] Sqlite write daemon: set up complete, waiting for connections
+[9][environment] CWD = /ws-code
+[9][environment] No .inferconfig file found
+[9][environment] Project root = /ws-code
+[9][environment] INFER_ARGS =   
+[9][environment] command line arguments:   infer -- ./gradlew build
+[9][environment] Available memory at startup: 14373 MB
+[9][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), dotnet-resource-leak (C#/.Net), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java, C#/.Net)
+[9][environment] Scheduler: file
+[9][environment] Cores used: 16
+[9][environment] Infer version v1.1.0
+[9][environment] Copyright 2009 - present Facebook. All Rights Reserved.
+[9][environment] 
+[9][   progress] Capturing in gradle mode...
+[9][   progress] javac-stderr: javac 11.0.26
+[9][environment] openjdk version "11.0.26" 2025-01-21
+OpenJDK Runtime Environment (build 11.0.26+4-post-Debian-1deb11u1)
+OpenJDK 64-Bit Server VM (build 11.0.26+4-post-Debian-1deb11u1, mixed mode, sharing)
+  Downloading https://services.gradle.org/distributions/gradle-8.2-bin.zip
+............10%............20%............30%.............40%............50%............60%............70%.............80%............90%............100%
+
+Welcome to Gradle 8.2!
+
+Here are the highlights of this release:
+ - Kotlin DSL: new reference documentation, assignment syntax by default
+ - Kotlin DSL is now the default with Gradle init
+ - Improved suggestions to resolve errors in console output
+
+For more details see https://docs.gradle.org/8.2/release-notes.html
+
+
+------------------------------------------------------------
+Gradle 8.2
+------------------------------------------------------------
+
+Build time:   2023-06-30 18:02:30 UTC
+Revision:     5f4a070a62a31a17438ac998c2b849f4f6892877
+
+Kotlin:       1.8.20
+Groovy:       3.0.17
+Ant:          Apache Ant(TM) version 1.10.13 compiled on January 4 2023
+JVM:          11.0.26 (Debian 11.0.26+4-post-Debian-1deb11u1)
+OS:           Linux 5.15.167.4-microsoft-standard-WSL2 amd64
+
+
+[9][environment] 
+[9][   progress] [GRADLE] ./gradlew --debug build >'/ws-code/infer-out/tmp/gradle_output.tmp.f60408.log'
+[9][   progress] [GRADLE] running gradle took 10.067s
+[9][   progress] 
+[9][environment] openjdk version "11.0.26" 2025-01-21
+OpenJDK Runtime Environment (build 11.0.26+4-post-Debian-1deb11u1)
+OpenJDK 64-Bit Server VM (build 11.0.26+4-post-Debian-1deb11u1, mixed mode, sharing)
+  Downloading https://services.gradle.org/distributions/gradle-8.2-bin.zip
+............10%............20%............30%.............40%............50%............60%............70%.............80%............90%............100%
+
+Welcome to Gradle 8.2!
+
+Here are the highlights of this release:
+ - Kotlin DSL: new reference documentation, assignment syntax by default
+ - Kotlin DSL is now the default with Gradle init
+ - Improved suggestions to resolve errors in console output
+
+For more details see https://docs.gradle.org/8.2/release-notes.html
+
+
+------------------------------------------------------------
+Gradle 8.2
+------------------------------------------------------------
+
+Build time:   2023-06-30 18:02:30 UTC
+Revision:     5f4a070a62a31a17438ac998c2b849f4f6892877
+
+Kotlin:       1.8.20
+Groovy:       3.0.17
+Ant:          Apache Ant(TM) version 1.10.13 compiled on January 4 2023
+JVM:          11.0.26 (Debian 11.0.26+4-post-Debian-1deb11u1)
+OS:           Linux 5.15.167.4-microsoft-standard-WSL2 amd64
+
+
+[9][environment] 
+[9][   progress] [GRADLE] ./gradlew --debug build >'/ws-code/infer-out/tmp/gradle_output.tmp.f60408.log'
+[9][   progress] [GRADLE] running gradle took 10.067s
+[9][   progress] 
+[9][environment] openjdk version "11.0.26" 2025-01-21
+OpenJDK Runtime Environment (build 11.0.26+4-post-Debian-1deb11u1)
+OpenJDK 64-Bit Server VM (build 11.0.26+4-post-Debian-1deb11u1, mixed mode, sharing)
+  Downloading https://services.gradle.org/distributions/gradle-8.2-bin.zip
+............10%............20%............30%.............40%............50%............60%............70%.............80%............90%............100%
+
+Welcome to Gradle 8.2!
+
+Here are the highlights of this release:
+ - Kotlin DSL: new reference documentation, assignment syntax by default
+ - Kotlin DSL is now the default with Gradle init
+ - Improved suggestions to resolve errors in console output
+
+For more details see https://docs.gradle.org/8.2/release-notes.html
+
+
+------------------------------------------------------------
+Gradle 8.2
+------------------------------------------------------------
+
+Build time:   2023-06-30 18:02:30 UTC
+Revision:     5f4a070a62a31a17438ac998c2b849f4f6892877
+
+Kotlin:       1.8.20
+Groovy:       3.0.17
+Ant:          Apache Ant(TM) version 1.10.13 compiled on January 4 2023
+JVM:          11.0.26 (Debian 11.0.26+4-post-Debian-1deb11u1)
+OS:           Linux 5.15.167.4-microsoft-standard-WSL2 amd64
+
+
+[9][environment] 
+[9][   progress] [GRADLE] ./gradlew --debug build >'/ws-code/infer-out/tmp/gradle_output.tmp.f60408.log'
+[9][   progress] [GRADLE] running gradle took 10.067s
+[9][   progress] [9][environment] openjdk version "11.0.26" 2025-01-21
+OpenJDK Runtime Environment (build 11.0.26+4-post-Debian-1deb11u1)
+OpenJDK 64-Bit Server VM (build 11.0.26+4-post-Debian-1deb11u1, mixed mode, sharing)
+  Downloading https://services.gradle.org/distributions/gradle-8.2-bin.zip
+............10%............20%............30%.............40%............50%............60%............70%.............80%............90%............100%
+
+Welcome to Gradle 8.2!
+
+Here are the highlights of this release:
+ - Kotlin DSL: new reference documentation, assignment syntax by default
+ - Kotlin DSL is now the default with Gradle init
+ - Improved suggestions to resolve errors in console output
+
+For more details see https://docs.gradle.org/8.2/release-notes.html
+
+
+------------------------------------------------------------
+Gradle 8.2
+------------------------------------------------------------
+
+Build time:   2023-06-30 18:02:30 UTC
+Revision:     5f4a070a62a31a17438ac998c2b849f4f6892877
+
+Kotlin:       1.8.20
+Groovy:       3.0.17
+Ant:          Apache Ant(TM) version 1.10.13 compiled on January 4 2023
+JVM:          11.0.26 (Debian 11.0.26+4-post-Debian-1deb11u1)
+OS:           Linux 5.15.167.4-microsoft-standard-WSL2 amd64
+
+
+[9][environment] 
+[9][   progress] [GRADLE] ./gradlew --debug build >'/ws-code/infer-out/tmp/gradle_output.tmp.f60408.log'
+[9][   progress] [GRADLE] running gradle took 10.067s
+[9][   progress] 
+[9][environment] openjdk version "11.0.26" 2025-01-21
+OpenJDK Runtime Environment (build 11.0.26+4-post-Debian-1deb11u1)
+OpenJDK 64-Bit Server VM (build 11.0.26+4-post-Debian-1deb11u1, mixed mode, sharing)
+  Downloading https://services.gradle.org/distributions/gradle-8.2-bin.zip
+............10%............20%............30%.............40%............50%............60%............70%.............80%............90%............100%
+
+Welcome to Gradle 8.2!
+
+Here are the highlights of this release:
+ - Kotlin DSL: new reference documentation, assignment syntax by default
+ - Kotlin DSL is now the default with Gradle init
+ - Improved suggestions to resolve errors in console output
+
+For more details see https://docs.gradle.org/8.2/release-notes.html
+
+
+------------------------------------------------------------
+Gradle 8.2
+------------------------------------------------------------
+
+Build time:   2023-06-30 18:02:30 UTC
+Revision:     5f4a070a62a31a17438ac998c2b849f4f6892877
+
+Kotlin:       1.8.20
+Groovy:       3.0.17
+Ant:          Apache Ant(TM) version 1.10.13 compiled on January 4 2023
+JVM:          11.0.26 (Debian 11.0.26+4-post-Debian-1deb11u1)
+OS:           Linux 5.15.167.4-microsoft-standard-WSL2 amd64
+
+
+[9][environment] 
+[9][   progress] [GRADLE] ./gradlew --debug build >'/ws-code/infer-out/tmp/gradle_output.tmp.f60408.log'
+[9][   progress] [GRADLE] running gradle took 10.067s
+[9][   progress] [9][environment] openjdk version "11.0.26" 2025-01-21
+OpenJDK Runtime Environment (build 11.0.26+4-post-Debian-1deb11u1)
+OpenJDK 64-Bit Server VM (build 11.0.26+4-post-Debian-1deb11u1, mixed mode, sharing)
+  Downloading https://services.gradle.org/distributions/gradle-8.2-bin.zip
+............10%............20%............30%.............40%............50%............60%............70%.............80%............90%............100%
+
+Welcome to Gradle 8.2!
+
+Here are the highlights of this release:
+ - Kotlin DSL: new reference documentation, assignment syntax by default
+ - Kotlin DSL is now the default with Gradle init
+ - Improved suggestions to resolve errors in console output
+
+For more details see https://docs.gradle.org/8.2/release-notes.html
+
+
+------------------------------------------------------------
+Gradle 8.2
+------------------------------------------------------------
+
+Build time:   2023-06-30 18:02:30 UTC
+Revision:     5f4a070a62a31a17438ac998c2b849f4f6892877
+
+Kotlin:       1.8.20
+Groovy:       3.0.17
+Ant:          Apache Ant(TM) version 1.10.13 compiled on January 4 2023
+JVM:          11.0.26 (Debian 11.0.26+4-post-Debian-1deb11u1)
+OS:           Linux 5.15.167.4-microsoft-standard-WSL2 amd64
+
+
+[9][environment] 
+[9][   progress] [GRADLE] ./gradlew --debug build >'/ws-code/infer-out/tmp/gradle_output.tmp.f60408.log'
+[9][   progress] [GRADLE] running gradle took 10.067s
+[9][   progress] 
+
+
+[9][environment] openjdk version "11.0.26" 2025-01-21
+OpenJDK Runtime Environment (build 11.0.26+4-post-Debian-1deb11u1)
+OpenJDK 64-Bit Server VM (build 11.0.26+4-post-Debian-1deb11u1, mixed mode, sharing)
+  Downloading https://services.gradle.org/distributions/gradle-8.2-bin.zip
+............10%............20%............30%.............40%............50%............60%............70%.............80%............90%............100%
+
+Welcome to Gradle 8.2!
+
+Here are the highlights of this release:
+ - Kotlin DSL: new reference documentation, assignment syntax by default
+ - Kotlin DSL is now the default with Gradle init
+ - Improved suggestions to resolve errors in console output
+
+For more details see https://docs.gradle.org/8.2/release-notes.html
+
+
+------------------------------------------------------------
+Gradle 8.2
+------------------------------------------------------------
+
+Build time:   2023-06-30 18:02:30 UTC
+Revision:     5f4a070a62a31a17438ac998c2b849f4f6892877
+
+Kotlin:       1.8.20
+Groovy:       3.0.17
+Ant:          Apache Ant(TM) version 1.10.13 compiled on January 4 2023
+JVM:          11.0.26 (Debian 11.0.26+4-post-Debian-1deb11u1)
+OS:           Linux 5.15.167.4-microsoft-standard-WSL2 amd64
+
+
+[9][environment] 
+[9][   progress] [GRADLE] ./gradlew --debug build >'/ws-code/infer-out/tmp/gradle_output.tmp.f60408.log'
+[9][   progress] [GRADLE] running gradle took 10.067s
+[9][   progress] [9][environment] openjdk version "11.0.26" 2025-01-21
+OpenJDK Runtime Environment (build 11.0.26+4-post-Debian-1deb11u1)
+OpenJDK 64-Bit Server VM (build 11.0.26+4-post-Debian-1deb11u1, mixed mode, sharing)
+  Downloading https://services.gradle.org/distributions/gradle-8.2-bin.zip
+............10%............20%............30%.............40%............50%............60%............70%.............80%............90%............100%
+
+Welcome to Gradle 8.2!
+
+Here are the highlights of this release:
+ - Kotlin DSL: new reference documentation, assignment syntax by default
+ - Kotlin DSL is now the default with Gradle init
+ - Improved suggestions to resolve errors in console output
+
+For more details see https://docs.gradle.org/8.2/release-notes.html
+
+
+------------------------------------------------------------
+Gradle 8.2
+------------------------------------------------------------
+
+Build time:   2023-06-30 18:02:30 UTC
+Revision:     5f4a070a62a31a17438ac998c2b849f4f6892877
+
+Kotlin:       1.8.20
+Groovy:       3.0.17
+Ant:          Apache Ant(TM) version 1.10.13 compiled on January 4 2023
+JVM:          11.0.26 (Debian 11.0.26+4-post-Debian-1deb11u1)
+OS:           Linux 5.15.167.4-microsoft-standard-WSL2 amd64
+
+
+[9][environment] 
+[9][   progress] [GRADLE] ./gradlew --debug build >'/ws-code/infer-out/tmp/gradle_output.tmp.f60408.log'
+[9][   progress] [GRADLE] running gradle took 10.067s
+[9][   progress] [9][environment] openjdk version "11.0.26" 2025-01-21
+OpenJDK Runtime Environment (build 11.0.26+4-post-Debian-1deb11u1)
+OpenJDK 64-Bit Server VM (build 11.0.26+4-post-Debian-1deb11u1, mixed mode, sharing)
+  Downloading https://services.gradle.org/distributions/gradle-8.2-bin.zip
+............10%............20%............30%.............40%............50%............60%............70%.............80%............90%............100%
+
+Welcome to Gradle 8.2!
+
+Here are the highlights of this release:
+ - Kotlin DSL: new reference documentation, assignment syntax by default
+ - Kotlin DSL is now the default with Gradle init
+ - Improved suggestions to resolve errors in console output
+
+For more details see https://docs.gradle.org/8.2/release-notes.html
+
+
+------------------------------------------------------------
+Gradle 8.2
+------------------------------------------------------------
+
+Build time:   2023-06-30 18:02:30 UTC
+Revision:     5f4a070a62a31a17438ac998c2b849f4f6892877
+
+Kotlin:       1.8.20
+Groovy:       3.0.17
+Ant:          Apache Ant(TM) version 1.10.13 compiled on January 4 2023
+JVM:          11.0.26 (Debian 11.0.26+4-post-Debian-1deb11u1)
+OS:           Linux 5.15.167.4-microsoft-standard-WSL2 amd64
+
+
+[9][environment] 
+[9][   progress] [GRADLE] ./gradlew --debug build >'/ws-code/infer-out/tmp/gradle_output.tmp.f60408.log'
+[9][   progress] [GRADLE] running gradle took 10.067s
+[9][   progress] 
+[9][environment] openjdk version "11.0.26" 2025-01-21
+OpenJDK Runtime Environment (build 11.0.26+4-post-Debian-1deb11u1)
+OpenJDK 64-Bit Server VM (build 11.0.26+4-post-Debian-1deb11u1, mixed mode, sharing)
+  Downloading https://services.gradle.org/distributions/gradle-8.2-bin.zip
+............10%............20%............30%.............40%............50%............60%............70%.............80%............90%............100%
+
+Welcome to Gradle 8.2!
+
+Here are the highlights of this release:
+ - Kotlin DSL: new reference documentation, assignment syntax by default
+ - Kotlin DSL is now the default with Gradle init
+ - Improved suggestions to resolve errors in console output
+
+For more details see https://docs.gradle.org/8.2/release-notes.html
+
+
+------------------------------------------------------------
+Gradle 8.2
+------------------------------------------------------------
+
+Build time:   2023-06-30 18:02:30 UTC
+Revision:     5f4a070a62a31a17438ac998c2b849f4f6892877
+
+Kotlin:       1.8.20
+Groovy:       3.0.17
+Ant:          Apache Ant(TM) version 1.10.13 compiled on January 4 2023
+JVM:          11.0.26 (Debian 11.0.26+4-post-Debian-1deb11u1)
+OS:           Linux 5.15.167.4-microsoft-standard-WSL2 amd64
+
+
+[9][environment] 
+[9][   progress] [GRADLE] ./gradlew --debug build >'/ws-code/infer-out/tmp/gradle_output.tmp.f60408.log'
+[9][   progress] [GRADLE] running gradle took 10.067s
+[9][   progress] [9][environment] openjdk version "11.0.26" 2025-01-21
+OpenJDK Runtime Environment (build 11.0.26+4-post-Debian-1deb11u1)
+OpenJDK 64-Bit Server VM (build 11.0.26+4-post-Debian-1deb11u1, mixed mode, sharing)
+  Downloading https://services.gradle.org/distributions/gradle-8.2-bin.zip
+............10%............20%............30%.............40%............50%............60%............70%.............80%............90%............100%
+
+Welcome to Gradle 8.2!
+
+Here are the highlights of this release:
+ - Kotlin DSL: new reference documentation, assignment syntax by default
+ - Kotlin DSL is now the default with Gradle init
+ - Improved suggestions to resolve errors in console output
+
+For more details see https://docs.gradle.org/8.2/release-notes.html
+
+
+------------------------------------------------------------
+Gradle 8.2
+------------------------------------------------------------
+
+Build time:   2023-06-30 18:02:30 UTC
+Revision:     5f4a070a62a31a17438ac998c2b849f4f6892877
+
+Kotlin:       1.8.20
+Groovy:       3.0.17
+Ant:          Apache Ant(TM) version 1.10.13 compiled on January 4 2023
+JVM:          11.0.26 (Debian 11.0.26+4-post-Debian-1deb11u1)
+OS:           Linux 5.15.167.4-microsoft-standard-WSL2 amd64
+
+
+[9][environment] 
+[9][   progress] [GRADLE] ./gradlew --debug build >'/ws-code/infer-out/tmp/gradle_output.tmp.f60408.log'
+[9][   progress] [GRADLE] running gradle took 10.067s
+[9][   progress] 
+[9][environment] openjdk version "11.0.26" 2025-01-21
+OpenJDK Runtime Environment (build 11.0.26+4-post-Debian-1deb11u1)
+OpenJDK 64-Bit Server VM (build 11.0.26+4-post-Debian-1deb11u1, mixed mode, sharing)
+  Downloading https://services.gradle.org/distributions/gradle-8.2-bin.zip
+............10%............20%............30%.............40%............50%............60%............70%.............80%............90%............100%
+
+Welcome to Gradle 8.2!
+
+Here are the highlights of this release:
+ - Kotlin DSL: new reference documentation, assignment syntax by default
+ - Kotlin DSL is now the default with Gradle init
+ - Improved suggestions to resolve errors in console output
+
+For more details see https://docs.gradle.org/8.2/release-notes.html
+
+
+------------------------------------------------------------
+Gradle 8.2
+------------------------------------------------------------
+
+Build time:   2023-06-30 18:02:30 UTC
+Revision:     5f4a070a62a31a17438ac998c2b849f4f6892877
+
+Kotlin:       1.8.20
+Groovy:       3.0.17
+Ant:          Apache Ant(TM) version 1.10.13 compiled on January 4 2023
+JVM:          11.0.26 (Debian 11.0.26+4-post-Debian-1deb11u1)
+OS:           Linux 5.15.167.4-microsoft-standard-WSL2 amd64
+
+
+[9][environment] 
+[9][   progress] [GRADLE] ./gradlew --debug build >'/ws-code/infer-out/tmp/gradle_output.tmp.f60408.log'
+[9][   progress] [GRADLE] running gradle took 10.067s
+[9][   progress] [9][environment] openjdk version "11.0.26" 2025-01-21
+OpenJDK Runtime Environment (build 11.0.26+4-post-Debian-1deb11u1)
+OpenJDK 64-Bit Server VM (build 11.0.26+4-post-Debian-1deb11u1, mixed mode, sharing)
+  Downloading https://services.gradle.org/distributions/gradle-8.2-bin.zip
+............10%............20%............30%.............40%............50%............60%............70%.............80%............90%............100%
+
+Welcome to Gradle 8.2!
+
+Here are the highlights of this release:
+ - Kotlin DSL: new reference documentation, assignment syntax by default
+ - Kotlin DSL is now the default with Gradle init
+ - Improved suggestions to resolve errors in console output
+
+For more details see https://docs.gradle.org/8.2/release-notes.html
+
+
+------------------------------------------------------------
+Gradle 8.2
+------------------------------------------------------------
+
+Build time:   2023-06-30 18:02:30 UTC
+Revision:     5f4a070a62a31a17438ac998c2b849f4f6892877
+
+Kotlin:       1.8.20
+Groovy:       3.0.17
+Ant:          Apache Ant(TM) version 1.10.13 compiled on January 4 2023
+JVM:          11.0.26 (Debian 11.0.26+4-post-Debian-1deb11u1)
+OS:           Linux 5.15.167.4-microsoft-standard-WSL2 amd64
+
+
+[9][environment] 
+[9][   progress] [GRADLE] ./gradlew --debug build >'/ws-code/infer-out/tmp/gradle_output.tmp.f60408.log'
+[9][   progress] [GRADLE] running gradle took 10.067s
+[9][   progress] 
+[9][environment] openjdk version "11.0.26" 2025-01-21
+OpenJDK Runtime Environment (build 11.0.26+4-post-Debian-1deb11u1)
+OpenJDK 64-Bit Server VM (build 11.0.26+4-post-Debian-1deb11u1, mixed mode, sharing)
+  Downloading https://services.gradle.org/distributions/gradle-8.2-bin.zip
+............10%............20%............30%.............40%............50%............60%............70%.............80%............90%............100%
+
+Welcome to Gradle 8.2!
+
+Here are the highlights of this release:
+ - Kotlin DSL: new reference documentation, assignment syntax by default
+ - Kotlin DSL is now the default with Gradle init
+ - Improved suggestions to resolve errors in console output
+
+For more details see https://docs.gradle.org/8.2/release-notes.html
+
+
+------------------------------------------------------------
+Gradle 8.2
+------------------------------------------------------------
+
+Build time:   2023-06-30 18:02:30 UTC
+Revision:     5f4a070a62a31a17438ac998c2b849f4f6892877
+
+Kotlin:       1.8.20
+Groovy:       3.0.17
+Ant:          Apache Ant(TM) version 1.10.13 compiled on January 4 2023
+JVM:          11.0.26 (Debian 11.0.26+4-post-Debian-1deb11u1)
+OS:           Linux 5.15.167.4-microsoft-standard-WSL2 amd64
+
+
+[9][environment] 
+[9][   progress] [GRADLE] ./gradlew --debug build >'/ws-code/infer-out/tmp/gradle_output.tmp.f60408.log'
+[9][   progress] [GRADLE] running gradle took 10.067s
+[9][   progress] [9][environment] openjdk version "11.0.26" 2025-01-21
+OpenJDK Runtime Environment (build 11.0.26+4-post-Debian-1deb11u1)
+OpenJDK 64-Bit Server VM (build 11.0.26+4-post-Debian-1deb11u1, mixed mode, sharing)
+  Downloading https://services.gradle.org/distributions/gradle-8.2-bin.zip
+............10%............20%............30%.............40%............50%............60%............70%.............80%............90%............100%
+
+Welcome to Gradle 8.2!
+
+Here are the highlights of this release:
+ - Kotlin DSL: new reference documentation, assignment syntax by default
+ - Kotlin DSL is now the default with Gradle init
+ - Improved suggestions to resolve errors in console output
+
+For more details see https://docs.gradle.org/8.2/release-notes.html
+
+
+------------------------------------------------------------
+Gradle 8.2
+------------------------------------------------------------
+
+Build time:   2023-06-30 18:02:30 UTC
+Revision:     5f4a070a62a31a17438ac998c2b849f4f6892877
+
+Kotlin:       1.8.20
+Groovy:       3.0.17
+Ant:          Apache Ant(TM) version 1.10.13 compiled on January 4 2023
+JVM:          11.0.26 (Debian 11.0.26+4-post-Debian-1deb11u1)
+OS:           Linux 5.15.167.4-microsoft-standard-WSL2 amd64
+
+
+[9][environment] 
+[9][   progress] [GRADLE] ./gradlew --debug build >'/ws-code/infer-out/tmp/gradle_output.tmp.f60408.log'
+[9][   progress] [GRADLE] running gradle took 10.067s
+[9][   progress] [9][environment] openjdk version "11.0.26" 2025-01-21
+OpenJDK Runtime Environment (build 11.0.26+4-post-Debian-1deb11u1)
+OpenJDK 64-Bit Server VM (build 11.0.26+4-post-Debian-1deb11u1, mixed mode, sharing)
+  Downloading https://services.gradle.org/distributions/gradle-8.2-bin.zip
+............10%............20%............30%.............40%............50%............60%............70%.............80%............90%............100%
+
+Welcome to Gradle 8.2!
+
+Here are the highlights of this release:
+ - Kotlin DSL: new reference documentation, assignment syntax by default
+ - Kotlin DSL is now the default with Gradle init
+ - Improved suggestions to resolve errors in console output
+
+For more details see https://docs.gradle.org/8.2/release-notes.html
+
+
+------------------------------------------------------------
+Gradle 8.2
+------------------------------------------------------------
+
+Build time:   2023-06-30 18:02:30 UTC
+Revision:     5f4a070a62a31a17438ac998c2b849f4f6892877
+
+Kotlin:       1.8.20
+Groovy:       3.0.17
+Ant:          Apache Ant(TM) version 1.10.13 compiled on January 4 2023
+JVM:          11.0.26 (Debian 11.0.26+4-post-Debian-1deb11u1)
+OS:           Linux 5.15.167.4-microsoft-standard-WSL2 amd64
+
+
+[9][environment] 
+[9][   progress] [GRADLE] ./gradlew --debug build >'/ws-code/infer-out/tmp/gradle_output.tmp.f60408.log'
+[9][   progress] [GRADLE] running gradle took 10.067s
+[9][   progress] 
+
+
+
+
+
+
+[9][environment] openjdk version "11.0.26" 2025-01-21
+OpenJDK Runtime Environment (build 11.0.26+4-post-Debian-1deb11u1)
+OpenJDK 64-Bit Server VM (build 11.0.26+4-post-Debian-1deb11u1, mixed mode, sharing)
+  Downloading https://services.gradle.org/distributions/gradle-8.2-bin.zip
+............10%............20%............30%.............40%............50%............60%............70%.............80%............90%............100%
+
+Welcome to Gradle 8.2!
+
+Here are the highlights of this release:
+ - Kotlin DSL: new reference documentation, assignment syntax by default
+ - Kotlin DSL is now the default with Gradle init
+ - Improved suggestions to resolve errors in console output
+
+For more details see https://docs.gradle.org/8.2/release-notes.html
+
+
+------------------------------------------------------------
+Gradle 8.2
+------------------------------------------------------------
+
+Build time:   2023-06-30 18:02:30 UTC
+Revision:     5f4a070a62a31a17438ac998c2b849f4f6892877
+
+Kotlin:       1.8.20
+Groovy:       3.0.17
+Ant:          Apache Ant(TM) version 1.10.13 compiled on January 4 2023
+JVM:          11.0.26 (Debian 11.0.26+4-post-Debian-1deb11u1)
+OS:           Linux 5.15.167.4-microsoft-standard-WSL2 amd64
+
+
+[9][environment] 
+[9][   progress] [GRADLE] ./gradlew --debug build >'/ws-code/infer-out/tmp/gradle_output.tmp.f60408.log'
+[9][   progress] [GRADLE] running gradle took 10.067s
+[9][   progress] 
+[301][      debug] Loading models took 60.375ms
+[301][environment] CWD = /ws-code
+[301][environment] No .inferconfig file found
+[301][environment] Project root = /ws-code
+[301][environment] INFER_ARGS =   @/tmp/args.tmp.65c569
+[301][environment] command line arguments:   /opt/infer-linux64-v1.1.0/lib/infer/infer/bin/infer
+[301][environment]                           capture -j 1 -o
+[301][environment]                           /ws-code/infer-out/tmp/capture_target.tmp.2PHoqR --
+[301][environment]                           javac
+[301][environment]                           @/ws-code/infer-out/tmp/gradle_files.tmp.942ed6
+[301][environment]                           -source 11 -target 11 -d
+[301][environment]                           /ws-code/build/classes/java/main -h
+[301][environment]                           /ws-code/build/generated/sources/headers/java/main
+[301][environment]                           -g -sourcepath "" -proc:none -s
+[301][environment]                           /ws-code/build/generated/sources/annotationProcessor/java/main
+[301][environment]                           -XDuseUnsharedTable=true -classpath
+[301][environment]                           /root/.gradle/caches/modules-2/files-2.1/org.xerial/sqlite-jdbc/3.43.0.0/7a0b833081794081789af7b6d54a23ea0247f98f/sqlite-jdbc-3.43.0.0.jar:/root/.gradle/caches/modules-2/files-2.1/org.postgresql/postgresql/42.6.0/7614cfce466145b84972781ab0079b8dea49e363/postgresql-42.6.0.jar:/root/.gradle/caches/modules-2/files-2.1/org.java-websocket/Java-WebSocket/1.5.4/58242a8c9a30ecf23548761a7d6c08735c0eaec3/Java-WebSocket-1.5.4.jar:/root/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/2.0.6/88c40d8b4f33326f19a7d3c0aaf2c7e8721d4953/slf4j-api-2.0.6.jar
+[301][environment] Available memory at startup: 13765 MB
+[301][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), dotnet-resource-leak (C#/.Net), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java, C#/.Net)
+[301][      debug] Current working directory: '/ws-code'
+[301][      debug] Trying to execute: javac '-J-Duser.language=en' '@/ws-code/infer-out/tmp/gradle_files.tmp.942ed6' '@/ws-code/infer-out/tmp/capture_target.tmp.2PHoqR/tmp/javac_args.tmp.8d9466' 2>'/ws-code/infer-out/tmp/capture_target.tmp.2PHoqR/tmp/javac.tmp.6310c5.out'
+[301][      debug] *** Success. Logs:
+[301][      debug] Translating 3 source files (5 classes)
+[301][      debug] done capturing all files
+[301][      debug] GC stats for capture:
+[301][      debug]   minor_words: 5.00752e+06
+[301][      debug]   promoted_words: 471286
+[301][      debug]   major_words: 694206
+[301][      debug]   minor_collections: 7
+[301][      debug]   major_collections: 2
+[301][      debug]   compactions: 0
+[301][      debug]   top_heap_words: 1331712
+[301][      debug]   
+[301][      debug] GC stats for main_process_full:
+[301][      debug]   minor_words: 6.69891e+06
+[301][      debug]   promoted_words: 803203
+[301][      debug]   major_words: 1.55191e+06
+[301][      debug]   minor_collections: 32
+[301][      debug]   major_collections: 8
+[301][      debug]   compactions: 1
+[301][      debug]   top_heap_words: 1331712
+[301][      debug]   
+[301][environment] Scheduler: file
+[301][environment] Cores used: 1
+[301][environment] 
+[9][      debug] [GRADLE] infer processed 1 lines in 3.306s
+[9][      debug] GC stats for capture:
+[9][      debug]   minor_words: 2.37784e+06
+[9][      debug]   promoted_words: 2666
+[9][      debug]   major_words: 35699
+[9][      debug]   minor_collections: 3
+[9][      debug]   major_collections: 2
+[9][      debug]   compactions: 1
+[9][      debug]   top_heap_words: 875008
+[9][      debug]   
+[9][   progress] Merging captured Buck targets...
+[9][   progress] Merging type environments took 11.15ms, of which 5.979ms were spent storing the global tenv
+[9][   progress] Merging 1 captured Buck targets took 56.873ms
+[9][   progress] 
+[9][environment] Parallel jobs: 16
+[9][   progress] Found 3 source files to analyze in /ws-code/infer-out
+[315][   progress] src/main/java/io/redrays/ws/concept/client/WebSocketParallel_Success.java starting
+[316][   progress] src/main/java/io/redrays/ws/concept/client/WebSocketParallel_Failed.java starting
+[317][   progress] src/main/java/io/redrays/ws/concept/server/EchoWebSocketServer.java starting
+[316][   progress] src/main/java/io/redrays/ws/concept/client/WebSocketParallel_Failed.java DONE
+[315][   progress] src/main/java/io/redrays/ws/concept/client/WebSocketParallel_Success.java DONE
+[317][   progress] src/main/java/io/redrays/ws/concept/server/EchoWebSocketServer.java DONE
+[9][      debug] Backend stats:
+[9][      debug]   summary_file_try_load= 699
+[9][      debug]   summary_read_from_disk= 0
+[9][      debug]   summary_cache_hits= 594 (45%)
+[9][      debug]   summary_cache_misses= 699
+[9][      debug]   ondemand_procs_analyzed= 36
+[9][      debug]   ondemand_local_cache_hits= 374 (79%)
+[9][      debug]   ondemand_local_cache_misses= 99
+[9][      debug]   proc_locker_lock_time_user= 0.00000000
+[9][      debug]   proc_locker_lock_time_sys= 0.00000000
+[9][      debug]   proc_locker_lock_time_wall= 0.00000000
+[9][      debug]   proc_locker_unlock_time_user= 0.00000000
+[9][      debug]   proc_locker_unlock_time_sys= 0.00000000
+[9][      debug]   proc_locker_unlock_time_wall= 0.00000000
+[9][      debug]   restart_scheduler_useful_time_user= 0.00000000
+[9][      debug]   restart_scheduler_useful_time_sys= 0.00000000
+[9][      debug]   restart_scheduler_useful_time_wall= 0.00000000
+[9][      debug]   restart_scheduler_total_time_user= 0.00000000
+[9][      debug]   restart_scheduler_total_time_sys= 0.00000000
+[9][      debug]   restart_scheduler_total_time_wall= 0.00000000
+[9][      debug]   
+[9][      debug] GC stats for backend_stats.gc_stats_add.:
+[9][      debug]   minor_words: 8.06052e+07
+[9][      debug]   promoted_words: 422025
+[9][      debug]   major_words: 547631
+[9][      debug]   minor_collections: 86
+[9][      debug]   major_collections: 19
+[9][      debug]   compactions: 0
+[9][      debug]   top_heap_words: 14000128
+[9][      debug]   
+[9][      debug] GC stats for backend_stats.gc_stats_max.:
+[9][      debug]   minor_words: 4.82825e+07
+[9][      debug]   promoted_words: 229603
+[9][      debug]   major_words: 300579
+[9][      debug]   minor_collections: 51
+[9][      debug]   major_collections: 10
+[9][      debug]   compactions: 0
+[9][      debug]   top_heap_words: 875008
+[9][      debug]   
+[9][      debug] Average over 16 processes
+[9][      debug] GC stats for backend_stats.gc_stats_average.:
+[9][      debug]   minor_words: 5.03782e+06
+[9][      debug]   promoted_words: 26376.6
+[9][      debug]   major_words: 34226.9
+[9][      debug]   minor_collections: 5
+[9][      debug]   major_collections: 1
+[9][      debug]   compactions: 0
+[9][      debug]   top_heap_words: 875008
+[9][      debug]   
+[9][      debug] Analysis phase finished in 528ms
+[9][      debug] backend_stats.scheduler_process_analysis_time_user= 0.01037800
+[9][      debug] backend_stats.scheduler_process_analysis_time_sys= 0.01836200
+[9][      debug] backend_stats.scheduler_process_analysis_time_wall= 0.52775135
+[9][      debug] GC stats for analysis_scheduler:
+[9][      debug]   minor_words: 2.24772e+06
+[9][      debug]   promoted_words: 3920
+[9][      debug]   major_words: 12626
+[9][      debug]   minor_collections: 3
+[9][      debug]   major_collections: 2
+[9][      debug]   compactions: 1
+[9][      debug]   top_heap_words: 875008
+[9][      debug]   
+[9][      debug] GC stats for report:
+[9][      debug]   minor_words: 9893
+[9][      debug]   promoted_words: 0
+[9][      debug]   major_words: 0
+[9][      debug]   minor_collections: 0
+[9][      debug]   major_collections: 0
+[9][      debug]   compactions: 0
+[9][      debug]   top_heap_words: 875008
+[9][      debug]   
+[9][      debug] GC stats for main_process_full:
+[9][      debug]   minor_words: 6.35237e+06
+[9][      debug]   promoted_words: 338204
+[9][      debug]   major_words: 919515
+[9][      debug]   minor_collections: 30
+[9][      debug]   major_collections: 9
+[9][      debug]   compactions: 3
+[9][      debug]   top_heap_words: 875008
+[9][      debug]   
+[10][      debug] Sqlite write daemon: terminating

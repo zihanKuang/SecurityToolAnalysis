@@ -1,0 +1,5 @@
+'-verbose'
+'-g'
+'-d'
+'/infer-code'
+'EchoWebSocketServer.java'
